@@ -7,8 +7,9 @@
   "author": "Fizzify <fizzyplayzoriginal5@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc && electron .",
-    "build": "electron-builder"
+    "start": "tsc && electron .",
+    "build": "electron-builder",
+    "build-tsc": "tsc"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10",
