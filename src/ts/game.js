@@ -70,15 +70,15 @@ const getObstacle = () => {
     switch (randomNumber) {
         case 0:
             newObstacle.className = "rock obstacle";
-            newObstacle.src = "./images/rock.png";
+            newObstacle.src = "./images/rock.webp";
             break;
         case 1:
             newObstacle.className = "cloud obstacle";
-            newObstacle.src = "./images/cloud.png";
+            newObstacle.src = "./images/cloud.webp";
             break;
         case 2:
             newObstacle.className = "tree obstacle";
-            newObstacle.src = "./images/tree.png";
+            newObstacle.src = "./images/tree.webp";
             break;
         default:
             break;
