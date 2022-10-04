@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#bean {
+  display: inline-block;
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.game-text {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.game-text h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#game-time {
+  padding: 2em 0;
+  width: 1000px;
+  margin: auto;
+}
+
+.obstacle {
+  transition: 0.3s ease;
+}
+
+#content {
+  width: 800px;
+  margin: auto;
+}
